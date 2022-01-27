@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="../JavaScript/validation.js"></script>
+</head>
+<body>
+    <form>
+  <div class="container">
+    <h1>Register</h1>
+    <hr>
+
+    <label for="fname"><b>First Name</b></label>
+    <input type="text" placeholder="Enter First Name" name="fname" class="fname" id="fname" minlength="5" required><br>
+
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" placeholder="Enter Last name" name="lname" id="lname" minlength="8" required><br>
+
+    <label for="bdate"><b>Birth Date</b></label>
+    <input type="date" placeholder="Enter Birth Date" name="bdate" id="bdate" max="2000-01-01" required><br>
+    <button type="submit" class="registerbtn">Register</button>
+</div>
+</form>
+</body>
+</html>
